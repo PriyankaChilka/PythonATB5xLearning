@@ -1,14 +1,12 @@
-# Take User Input
+# Problem to find the max between two ( 3,4) → 4
 
-userAge= int(input("Please enter user Age : "))
-print(userAge)
+num1=int(input("Please enter first number :"))
+num2=int(input("Please enter second number :"))
 
-#Logic
+#print("Maximum number is : ", max(num1,num2))
 
-if (userAge>18):
-    print("You can go to the club")
+if(num1>num2):
+    print(num1,"is greater.")
 else:
-    print("Sorry! You cannot go the club")
-
-
+    print(num2,"is greater.")
 
